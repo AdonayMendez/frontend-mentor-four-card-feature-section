@@ -30,7 +30,7 @@ body{
 
 main{
   /* background-color: var(--Orange);  */
-  width: 100%;
+  width: 400px;
   min-height: 100%; 
   display: flex; 
   flex-direction: column;
@@ -68,6 +68,20 @@ main{
 
   display: flex; 
   flex-direction: column; 
+  gap: 2.5rem;
+
+  .card{
+    border-top: 5px solid var(--Cyan);
+  }
+ .card:nth-of-type(2){
+    border-top: 5px solid var(--Red);
+  }
+ .card:nth-of-type(3){
+    border-top: 5px solid var(--Orange);
+  }
+ .card:nth-of-type(4){
+    border-top: 5px solid var(--Blue);
+  }
 }
 
 .card{
@@ -77,8 +91,6 @@ main{
 
   box-shadow: 0 10px 20px -12px var(--Red);
   border-radius: 5px;
-  border-top: 5px solid var(--Cyan);
-
 
   display: flex; 
   flex-direction: column;  
@@ -121,7 +133,6 @@ main{
   img{
     width: 100%; 
     height: auto; 
-
   }
 }
 
